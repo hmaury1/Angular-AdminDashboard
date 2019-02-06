@@ -1,0 +1,14 @@
+@import "../../../../assets/scss/core/variables/_colors.scss";
+
+:host ::ng-deep {
+    .mat-form-field-appearance-legacy .mat-form-field-label, .mat-select-arrow, .mat-select-value, .mat-select-trigger, .mat-input-element {
+        color: $white !important;
+    }
+    .mat-form-field-appearance-legacy .mat-form-field-underline {
+        background-color: transparentize($white, 0.4) !important; 
+    }
+
+    .sidebar-normal {
+        left: 30px;
+    }
+}
